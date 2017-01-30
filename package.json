@@ -1,0 +1,20 @@
+{
+  "name": "srcl-archive-server",
+  "version": "0.0.1",
+  "description": "an independent server for archived files",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index",
+    "test": "node test"
+  },
+  "keywords": [
+    "archive",
+    "server"
+  ],
+  "dependencies": {
+    "7z-wrapper": "https://github.com/codenamesrcl/7z-wrapper.git",
+    "mime-types": "^2.1.13"
+  },
+  "author": "codenamesrcl",
+  "license": "ISC"
+}
